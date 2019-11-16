@@ -1,4 +1,4 @@
-from objects.User import User
+from model.User import User
 class Teacher(User):
 
     def __init__(self):
