@@ -1,9 +1,12 @@
-import User
+from objects.User import User
 
 class Admin(User):
 
-    def userCreateNewUser():
+    def __init__(self,UserObject):
         return -1
+
+    def userCreateNewUser(self):
+        return 'successful admin user create'
 
     def createNewLesson():
         return -1
